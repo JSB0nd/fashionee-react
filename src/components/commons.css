@@ -93,7 +93,7 @@
     display: block;
     width: 5px;
     height: 5px;
-    background-image: url("../../assets/icons/square.svg");
+    background-image: url("../../public/icons/square.svg");
 }
 
 .container .custom-list .item.active {
@@ -106,7 +106,7 @@
     display: block;
     width: 25px;
     height: 3px;
-    background-image: url("../../assets/icons/small-row.svg");
+    background-image: url("../../public/icons/small-row.svg");
 }
 
 .container .find-us .find-us-text {

@@ -68,7 +68,7 @@
     display: block;
     width: 5px;
     height: 5px;
-    background-image: url("../../assets/icons/square.svg");
+    background-image: url("../../../public/icons/square.svg");
 }
 
 .shop .sidebar .sidebar-item .sidebar-content .categories-list .category.active {
@@ -81,7 +81,7 @@
     display: block;
     width: 25px;
     height: 3px;
-    background-image: url("../../assets/icons/small-row.svg");
+    background-image: url("../../../public/icons/small-row.svg");
 }
 
 .shop .sidebar .sidebar-item .sidebar-content .price-bar {
@@ -128,7 +128,7 @@
 }
 
 .shop .sidebar .sidebar-item .sidebar-content .color .color-checkbox:checked+.color-name::before {
-    background-image: url("../../assets/icons/check-pink.svg");
+    background-image: url("../../../public/icons/check-pink.svg");
 }
 
 .shop .sidebar .sidebar-item .sidebar-content .color .color-checkbox:checked+.color-name {
