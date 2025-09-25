@@ -4,53 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b523e9-d9f1-43e7-b069-58832d8f48a4" name="Changes" comment="Поменял структуру">
-      <change afterPath="$PROJECT_DIR$/src/pages/CartPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ShopPage.jsx" afterDir="false" />
+    <list default="true" id="01b523e9-d9f1-43e7-b069-58832d8f48a4" name="Changes" comment="Добавил импортов,&#10;наметил ShopPage">
+      <change afterPath="$PROJECT_DIR$/src/components/ContentBlock/ContentBlock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ShowCase/FilterBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ShowCase/ProductList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ShowCase/ShowCase.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/legacy/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/arrow-red.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/arrow-red.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/bubbles10x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/bubbles10x.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/bubbles12x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/bubbles12x.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/bubbles5x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/bubbles5x.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/button-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/button-arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/cart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/check-pink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/check-pink.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/heart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/left-pagin-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/left-pagin-arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/master-card.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/master-card.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/payoneer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/payoneer.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/paypal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/paypal.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/profile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/right-pagin-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/right-pagin-arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/send.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/send.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/small-row.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/small-row.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/square.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/visa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/visa.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/season-sale.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/season-sale.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/legacy/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shop/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShowCase/ProductCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shop/Showcase.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShowCase/Showcase.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shop/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShowCase/Shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/ContentBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContentBlock/ContentBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/commons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContentBlock/ContentBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContentBlock/ContentBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShowCase/Showcase.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShowCase/Showcase.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/products.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,33 +50,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leonid/Desktop/technium/fashionee-react/src/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/leonid/Desktop/technium/fashionee-react/src/assets",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/Footer" />
       <recent name="$PROJECT_DIR$/src/components/Header" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/legacy" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -119,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757180987683</updated>
       <workItem from="1757180988780" duration="6799000" />
-      <workItem from="1758381247714" duration="4218000" />
+      <workItem from="1758381247714" duration="5635000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит">
       <option name="closed" value="true" />
@@ -153,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758822184287</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавил импортов,&#10;наметил ShopPage">
+      <option name="closed" value="true" />
+      <created>1758825978639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758825978639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +160,7 @@
     <MESSAGE value="Скопировал компоненты из Fashionee" />
     <MESSAGE value="Ещё коммит" />
     <MESSAGE value="Поменял структуру" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поменял структуру" />
+    <MESSAGE value="Добавил импортов,&#10;наметил ShopPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил импортов,&#10;наметил ShopPage" />
   </component>
 </project>
