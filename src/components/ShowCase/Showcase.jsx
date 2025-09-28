@@ -1,4 +1,4 @@
-import './Shop.css';
+import '../../styles/Shop.css';
 import productsData from '../../data/products.json';
 
 export default function Showcase() {

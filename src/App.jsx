@@ -1,6 +1,6 @@
 import './App.css'
-import './components/reset.css'
-import './components/commons.css'
+import './styles/reset.css'
+import './styles/commons.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ShopPage from "./components/ShopPage.jsx";
 import CartPage from "./components/CartPage.jsx";
