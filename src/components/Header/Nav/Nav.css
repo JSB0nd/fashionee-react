@@ -1,0 +1,15 @@
+.nav__list {
+    display: flex;
+    gap: 20px;
+}
+
+.nav__link {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+    transition: color 0.2s;
+}
+
+.nav__link:hover {
+    color: #d23f57;
+}

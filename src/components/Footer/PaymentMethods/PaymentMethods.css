@@ -1,0 +1,8 @@
+.payment-methods {
+    display: flex;
+    gap: 10px;
+}
+
+.payment-methods img {
+    height: 24px;
+}

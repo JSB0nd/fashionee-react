@@ -1,0 +1,9 @@
+.showcase {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.showcase__content {
+    flex: 1;
+}

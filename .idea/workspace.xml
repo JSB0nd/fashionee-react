@@ -4,21 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b523e9-d9f1-43e7-b069-58832d8f48a4" name="Changes" comment="Начал ContentBlock.jsx">
-      <change afterPath="$PROJECT_DIR$/legacy/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legacy/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/legacy/сart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Shop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/commons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/reset.css" afterDir="false" />
+    <list default="true" id="01b523e9-d9f1-43e7-b069-58832d8f48a4" name="Changes" comment="Перенес header, footer, contentBlock">
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/SocialLinks/SocialLinks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/SocialLinks/SocialLinks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Logo/Logo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Logo/Logo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Nav/Nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Nav/Nav.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/SearchBar/SearchBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/SearchBar/SearchBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/UserMenu/UserMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/UserMenu/UserMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ShowCase/Pagination/Pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ShowCase/Pagination/Pagination.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ShowCase/ProductCard/ProductCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ShowCase/ProductCard/ProductCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ShowCase/ProductGrid/ProductGrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ShowCase/ProductGrid/ProductGrid.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ShowCase/Sidebar/SideBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ShowCase/Sidebar/Sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/legacy/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/legacy/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ShowCase/Shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/legacy/shop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContentBlock/ContentBlock.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContentBlock/ContentBlock.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContentBlock/ContentBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContentBlock/ContentBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShowCase/FilterBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/FooterNav/FooterNav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShowCase/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/FooterNav/FooterNav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShowCase/ProductList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/PaymentMethods/PaymentMethods.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShowCase/ShowCase.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShowCase/ShowCase.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ShowCase/Showcase.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShowCase/Showcase.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/commons.css" beforeDir="false" afterPath="$PROJECT_DIR$/legacy/commons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/legacy/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CartPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/PaymentMethods/PaymentMethods.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Shop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/shop.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -56,24 +78,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/leonid/Desktop/technium/fashionee-react/legacy",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leonid/Desktop/technium/fashionee-react/legacy&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/legacy" />
@@ -81,11 +103,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/ShowCase/Pagination" />
+      <recent name="$PROJECT_DIR$/src/components/ShowCase/ProductCard" />
+      <recent name="$PROJECT_DIR$/src/components/ShowCase/ProductGrid" />
+      <recent name="$PROJECT_DIR$/src/components/ShowCase/Sidebar" />
       <recent name="$PROJECT_DIR$/src/styles" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/Footer" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -103,7 +125,8 @@
       <option name="presentableId" value="Default" />
       <updated>1757180987683</updated>
       <workItem from="1757180988780" duration="6799000" />
-      <workItem from="1758381247714" duration="8595000" />
+      <workItem from="1758381247714" duration="9271000" />
+      <workItem from="1759132841711" duration="4289000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит">
       <option name="closed" value="true" />
@@ -153,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758827942578</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Обновил legacy папку,&#10;структуру стилей">
+      <option name="closed" value="true" />
+      <created>1759078062722</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759078062722</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +208,8 @@
     <MESSAGE value="Поменял структуру" />
     <MESSAGE value="Добавил импортов,&#10;наметил ShopPage" />
     <MESSAGE value="Начал ContentBlock.jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начал ContentBlock.jsx" />
+    <MESSAGE value="Обновил legacy папку,&#10;структуру стилей" />
+    <MESSAGE value="Перенес header, footer, contentBlock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перенес header, footer, contentBlock" />
   </component>
 </project>

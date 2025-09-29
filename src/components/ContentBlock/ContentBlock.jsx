@@ -1,16 +1,13 @@
-import './ContentBlock.css';
+import "./ContentBlock.css";
 
-export default function ContentBlock({ title, subtitle, banner}) {
+export default function ContentBlock({ title, background }) {
     return (
-        <section className="content-block">
-            {banner && (
-                <div className="content-block-banner">
-                    <img src={banner} alt={`${title} banner`} />
-                </div>
-            )}
-            <div className="content-block__inner">
-                <h1>{title}</h1>
-                {subtitle && <p className="content-block+__subtitle">{subtitle}</p>}
+        <section
+            className="content-block"
+            style={{ backgroundImage: `url(${background})` }}
+        >
+            <div className="content-block__overlay">
+                <h1 className="content-block__title">{title}</h1>
             </div>
         </section>
     );
